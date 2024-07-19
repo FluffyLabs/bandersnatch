@@ -1,3 +1,6 @@
 {
+  "scripts": {
+    "build": "wasm-pack build --target nodejs"
+  },
   "workspaces": ["./pkg"]
 }
